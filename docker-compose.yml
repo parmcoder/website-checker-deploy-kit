@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  backend:
+    container_name: website-checker-backend
+    build:
+      context: ./website-checker-backend
+      dockerfile: Dockerfile
+
+  frontend:
+    container_name: website-checker-frontend
+    build:
+      context: ./website-checker-frontend
+      dockerfile: Dockerfile
