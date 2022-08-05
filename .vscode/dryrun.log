@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/parmcoder/projects/website-checker-deploy-kit'
+make: Leaving directory '/home/parmcoder/projects/website-checker-deploy-kit'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
