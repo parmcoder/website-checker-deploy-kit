@@ -4,14 +4,12 @@ services:
     container_name: website-checker-backend
     build:
       context: ./website-checker-backend
-      dockerfile: Dockerfile
     ports:
-      - 2500:3000
+      - 3000:3000
 
   frontend:
     container_name: website-checker-frontend
     build:
       context: ./website-checker-frontend
-      dockerfile: Dockerfile
     ports:
-      - 8081:8080
+      - 8080:8080
