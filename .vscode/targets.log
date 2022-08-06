@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Aug  6 05:48:12 2022
+# Make data base, printed on Sat Aug  6 22:02:03 2022
 
 # Variables
 
@@ -29,6 +29,8 @@ LC_NUMERIC = th_TH.UTF-8
 # environment
 VSCODE_CWD = /home/parmcoder/projects/website-checker-deploy-kit
 # environment
+NVM_DIR = /home/parmcoder/.nvm
+# environment
 LC_ADDRESS = th_TH.UTF-8
 # default
 MAKE_COMMAND := make
@@ -41,7 +43,7 @@ GOPATH = /home/parmcoder/go
 # environment
 SNAP_INSTANCE_NAME = code
 # environment
-GDK_PIXBUF_MODULEDIR = /snap/code/102/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+GDK_PIXBUF_MODULEDIR = /snap/code/103/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -55,13 +57,15 @@ LSCOLORS = Gxfxcxdxbxegedabagacad
 # environment
 XDG_DATA_DIRS = /usr/local/share/:/usr/share/:/var/lib/snapd/desktop
 # environment
-OLDPWD = /home/parmcoder/projects/website-checker-deploy-kit/website-checker-frontend
+OLDPWD = /home/parmcoder/projects/website-checker-deploy-kit/website-checker-backend
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = /home/parmcoder/.config/Code/CachedData/3b889b090b5ad5793f524b5d1d39fda662b96a2a
+NVM_INC = /home/parmcoder/.nvm/versions/node/v16.16.0/include/node
+# environment
+VSCODE_CODE_CACHE_PATH = /home/parmcoder/.config/Code/CachedData/da76f93349a72022ca4670c1b84860304616aaa2
 # environment
 LANG = C
 # environment
@@ -71,7 +75,7 @@ XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.IKFEQ1
 # default
 .INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
 # environment
-GNOME_TERMINAL_SERVICE = :1.5291
+GNOME_TERMINAL_SERVICE = :1.5573
 # makefile
 MAKEFLAGS = pqrR
 # makefile
@@ -86,6 +90,8 @@ MFLAGS = -pqrR
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # default
 .SHELLFLAGS := -c
+# environment
+NVM_BIN = /home/parmcoder/.nvm/versions/node/v16.16.0/bin
 # environment
 WAYLAND_DISPLAY = wayland-0
 # automatic
@@ -103,7 +109,7 @@ SNAP_REEXEC =
 # environment
 ZSH = /home/parmcoder/.oh-my-zsh
 # environment
-VSCODE_PID = 717399
+VSCODE_PID = 791681
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
@@ -135,7 +141,7 @@ XMODIFIERS = @im=ibus
 # environment
 SHLVL = 1
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/54f9c044_2e6d_4da8_a75a_25e2af6761de
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/40ff5c10_0429_4bff_b9e5_7f275daf89bf
 # environment
 MAKELEVEL := 0
 # default
@@ -143,7 +149,7 @@ MAKE = $(MAKE_COMMAND)
 # environment
 SNAP_COOKIE = spE51vIXDteQqZ8KI-IcZ6sbyo6XDOLTHA1cAVzR1bQnUC-ySZLr
 # environment
-PATH = /home/parmcoder/bin:/usr/local/bin:/usr/local/go/bin:/bin:/home/parmcoder/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+PATH = /home/parmcoder/bin:/usr/local/bin:/usr/local/go/bin:/bin:/home/parmcoder/go/bin:/home/parmcoder/.nvm/versions/node/v16.16.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
 # default
 MAKEFILES := 
 # environment
@@ -155,9 +161,9 @@ SNAP_USER_COMMON = /home/parmcoder/snap/code/common
 # environment
 LC_TIME = th_TH.UTF-8
 # environment
-SNAP = /snap/code/102
+SNAP = /snap/code/103
 # environment
-SNAP_REVISION = 102
+SNAP_REVISION = 103
 # environment
 SNAP_REAL_HOME = /home/parmcoder
 # environment
@@ -189,7 +195,7 @@ SNAP_ARCH = amd64
 # makefile
 .DEFAULT_GOAL := 
 # environment
-SYSTEMD_EXEC_PID = 1977
+SYSTEMD_EXEC_PID = 730080
 # environment
 DISPLAY = :0
 # environment
@@ -201,7 +207,7 @@ MAKE_VERSION := 4.3
 # environment
 DISABLE_WAYLAND = 1
 # environment
-SNAP_DATA = /var/snap/code/102
+SNAP_DATA = /var/snap/code/103
 # environment
 SNAP_CONTEXT = spE51vIXDteQqZ8KI-IcZ6sbyo6XDOLTHA1cAVzR1bQnUC-ySZLr
 # environment
@@ -217,6 +223,8 @@ COLORTERM = truecolor
 # environment
 GDK_PIXBUF_MODULE_FILE = /home/parmcoder/snap/code/common/.cache/gdk-pixbuf-loaders.cache
 # environment
+NVM_CD_FLAGS = -q
+# environment
 GOMODCACHE = /home/parmcoder/go/pkg/mod
 # environment
 XDG_SESSION_CLASS = user
@@ -229,13 +237,13 @@ QT_IM_MODULE = ibus
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-d6c0d6b6-1.69.2-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-d6c0d6b6-1.70.0-main.sock
 # environment
 TERM = xterm-256color
 # environment
 SNAP_NAME = code
 # environment
-GSETTINGS_SCHEMA_DIR = /snap/code/102/usr/share/glib-2.0/schemas
+GSETTINGS_SCHEMA_DIR = /snap/code/103/usr/share/glib-2.0/schemas
 # environment
 GOPROXY = https://proxy.golang.org,direct
 # default
@@ -243,11 +251,11 @@ GOPROXY = https://proxy.golang.org,direct
 # automatic
 <F = $(notdir $<)
 # environment
-SNAP_VERSION = 3b889b09
+SNAP_VERSION = da76f933
 # default
 SUFFIXES := 
 # environment
-_P9K_TTY = /dev/pts/0
+_P9K_TTY = /dev/pts/1
 # environment
 VSCODE_CLI = 1
 # environment
@@ -259,7 +267,7 @@ SNAP_COMMON = /var/snap/code/common
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
 # environment
-SNAP_USER_DATA = /home/parmcoder/snap/code/102
+SNAP_USER_DATA = /home/parmcoder/snap/code/103
 # environment
 XDG_MENU_PREFIX = gnome-
 # environment
@@ -269,7 +277,7 @@ LC_IDENTIFICATION = th_TH.UTF-8
 # environment
 SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
 # variable set hash-table stats:
-# Load=128/1024=12%, Rehash=0, Collisions=11/155=7%
+# Load=132/1024=13%, Rehash=0, Collisions=11/159=7%
 
 # Pattern-specific Variable Values
 
@@ -280,6 +288,7 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 # . (device 66310, inode 14550289): 8 files, no impossibilities.
 
 # 8 files, no impossibilities in 1 directories.
+ 
 
 # Implicit Rules
 
@@ -295,7 +304,6 @@ Makefile:
 #  Failed to be updated.
 
 # Not a target:
- 
 .DEFAULT:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -336,6 +344,6 @@ GNUmakefile:
 # strcache performance: lookups = 19 / hit rate = 15%
 # hash-table stats:
 # Load=16/8192=0%, Rehash=0, Collisions=0/19=0%
-# Finished Make data base on Sat Aug  6 05:48:12 2022
+# Finished Make data base on Sat Aug  6 22:02:03 2022
 
  
